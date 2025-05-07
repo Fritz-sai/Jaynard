@@ -19,7 +19,7 @@ namespace Jaynard
     {
 
         // Define MySQL connection using XAMPP's phpMyAdmin database
-        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbjaynaard;username=root;password=;");
+        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbjaynard;username=root;password=;");
         public registerForm()
         {
             InitializeComponent();
