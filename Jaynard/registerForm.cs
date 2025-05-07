@@ -19,11 +19,11 @@ namespace Jaynard
     {
 
         // Define MySQL connection using XAMPP's phpMyAdmin database
-        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbkoz;username=root;password=;");
+        private MySqlConnection conn = new MySqlConnection("server=localhost;database=dbjaynaard;username=root;password=;");
         public registerForm()
         {
             InitializeComponent();
-            
+
         }
 
         private void txtpassword_TextChanged(object sender, EventArgs e)
@@ -172,6 +172,11 @@ namespace Jaynard
         private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true; // prevent user from typing in the combobox
+        }
+
+        private void registerForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

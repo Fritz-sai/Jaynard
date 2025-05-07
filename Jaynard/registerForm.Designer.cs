@@ -327,6 +327,7 @@
             Controls.Add(panel1);
             Name = "registerForm";
             Text = "registerForm";
+            Load += registerForm_Load;
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel1.ResumeLayout(false);
